@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Herreria Bauza — Inicio</title>
+  <meta name="description" content="Trabajos de herrería artesanal en Andratx. Rejas, cancelas, estructuras metálicas y más. Contacta con Herreria Bauza para calidad y diseño.">
+  <style>
+    :root{
+      --accent:#0969da;
+      --bg:#f7f8fb;
+      --card:#ffffff;
+      --muted:#6b7280;
+      font-family: Inter, system-ui, sans-serif;
+    }
+    body{margin:0;background:linear-gradient(180deg,var(--bg),#fff);color:#111}
+    header{background:linear-gradient(90deg,var(--accent),#0b7adf);color:white;padding:20px;border-bottom-left-radius:24px;border-bottom-right-radius:24px}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    nav a{color:white;text-decoration:none;margin-left:14px;font-weight:600}
+    .hero{padding:40px 0;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
+    .hero h1{font-size:36px;margin:0 0 12px}
+    .cta{display:inline-block;padding:12px 18px;background:white;color:var(--accent);border-radius:12px;font-weight:700;text-decoration:none;margin-right:10px}
+    .services,.projects,.contact{margin:40px 0}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 20px rgba(10,10,10,0.06)}
+    .gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+    .gallery img{width:100%;height:120px;object-fit:cover;border-radius:10px}
+    footer{background:#222;color:white;padding:20px;text-align:center;margin-top:40px}
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Herreria Bauza</h1>
+    <nav>
+      <a href="#servicios">Servicios</a>
+      <a href="#proyectos">Proyectos</a>
+      <a href="#contacto">Contacto</a>
+      <a href="https://instagram.com/herreriabauza" target="_blank">Instagram</a>
+      <a href="https://share.google/Vsp501KCWeHIOCkeu" target="_blank">Google Business</a>
+    </nav>
+  </div>
+</header>
+
+<main class="container">
+  <section class="hero">
+    <div>
+      <h1>Herrería artesanal en Andratx</h1>
+      <p>Rejas, cancelas, estructuras y trabajos en metal con la máxima calidad y diseño personalizado.</p>
+      <a class="cta" href="tel:+34626802707">📞 Llamar</a>
+      <a class="cta" href="https://wa.me/34626802707" target="_blank">💬 WhatsApp</a>
+    </div>
+    <div>
+      <img src="images/ejemplo1.jpg" alt="Ejemplo de trabajo" style="width:100%;border-radius:12px">
+    </div>
+  </section>
+
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <div class="grid-3">
+      <div class="card"><h3>Rejas y cancelas</h3><p>Diseños clásicos y modernos, resistentes y decorativos.</p></div>
+      <div class="card"><h3>Estructuras metálicas</h3><p>Soluciones a medida para viviendas y negocios.</p></div>
+      <div class="card"><h3>Restauración</h3><p>Recuperamos piezas antiguas conservando su carácter.</p></div>
+    </div>
+  </section>
+
+  <section id="proyectos" class="projects">
+    <h2>Proyectos recientes</h2>
+    <div class="gallery">
+      <img src="images/ejemplo2.jpg" alt="Proyecto 1">
+      <img src="images/ejemplo3.jpg" alt="Proyecto 2">
+      <img src="images/ejemplo4.jpg" alt="Proyecto 3">
+      <img src="images/ejemplo5.jpg" alt="Proyecto 4">
+    </div>
+  </section>
+
+  <section id="contacto" class="contact">
+    <h2>Contacto</h2>
+    <p><strong>Dirección:</strong> Carrer Metge Gaspar Pujol 84, Andratx, 07150</p>
+    <p><strong>Teléfono:</strong> <a href="tel:+34626802707">+34 626 80 27 07</a></p>
+    <p><strong>Email:</strong> <a href="mailto:herreriabauza73@gmail.com">herreriabauza73@gmail.com</a></p>
+    <form action="https://formspree.io/f/mnqegjkn" method="POST">
+      <label>Nombre</label><input type="text" name="nombre" required>
+      <label>Email</label><input type="email" name="email" required>
+      <label>Mensaje</label><textarea name="mensaje" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</main>
+
+<footer>
+  © 2025 Herreria Bauza - Todos los derechos reservados
+</footer>
+
+</body>
+</html>
